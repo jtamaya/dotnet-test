@@ -7,7 +7,7 @@ phases:
   build:
     commands:
       - echo Build started on `date`
-      - dotnet publish -c release src/Test-For-AWS.csproj /p:EnvironmentName=dev
+      - dotnet publish -c release src/Test-For-AWS.csproj
 artifacts:
   files:
     - ./**/*    
