@@ -1,7 +1,7 @@
 version: 0.0
 os: windows
 files:
-  - source: src\Test-For-AWS\bin\release\net6.0\publish\
+  - source: bin\release\net6.0\publish\
     destination: C:\inetpub\wwwroot
 file_exists_behavior: OVERWRITE
 hooks:
