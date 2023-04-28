@@ -2,7 +2,7 @@ version: 0.0
 os: windows
 files:
   - source: bin\release\net6.0\publish\
-    destination: C:\inetpub\wwwroot
+    destination: C:\inetpub\App
 file_exists_behavior: OVERWRITE
 hooks:
   ApplicationStop:
