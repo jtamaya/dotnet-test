@@ -3,11 +3,11 @@ phases:
   pre_build:
     commands:
       - echo Restore started on `date`
-      - dotnet restore src/Test-For-AWS.csproj
+      - dotnet restore Test-For-AWS.csproj
   build:
     commands:
       - echo Build started on `date`
-      - dotnet publish -c release src/Test-For-AWS.csproj
+      - dotnet publish -c release Test-For-AWS.csproj
 artifacts:
   files:
     - ./**/*    
