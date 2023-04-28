@@ -6,10 +6,10 @@ files:
 file_exists_behavior: OVERWRITE
 hooks:
   ApplicationStop:
-    - location: scripts/stop-app.ps1
+    - location: deploy-scripts/stop-app.ps1
       timeout: 300
       runas: Administrator
   ApplicationStart:
-    - location: scripts/start-app.ps1
+    - location: deploy-scripts/start-app.ps1
       timeout: 300
       runas: Administrator
