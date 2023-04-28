@@ -1,1 +1,1 @@
-Stop-IISSite -Name "Default Web Site" -Confirm:$False
+Stop-IISSite -Name "TestApp" -Confirm:$False
